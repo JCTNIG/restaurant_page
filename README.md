@@ -1,0 +1,2 @@
+This project is about creating a Restaurant web page with using webpack and Javascript Modules.
+This project will contain only Javascript and CSS files and no HTML files. This is to solidify my knowledge of webpack. Wish me luck!
