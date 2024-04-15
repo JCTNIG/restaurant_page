@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./fonts/DancingScript-VariableFont_wght.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(20, 25, 1);
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#content {
+  margin: auto;
+  background-color: black;
+  text-align: center;
+
+}
+
+.homeBackground {
+  height: 600px;
+  width: 80%;
+  background-image: url('./images/foodBackground.jpeg');
+  font-family: 'MyFont';
+}
+.homeBackground > * {
+  background-color: rgba(0, 0, 0, 0.365);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.homeBackground > p{
+max-width: 50%;
+margin: auto;
+}
+
+
+button {
+  background-color: rgb(225, 194, 16);
+  border: none;
+  padding: 20px;
+  color: white;
+}
