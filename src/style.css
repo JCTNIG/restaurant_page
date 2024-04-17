@@ -18,7 +18,7 @@ nav {
 
 #content {
   margin: auto;
-  background-color: black;
+  background-color: rgb(32, 28, 28);
   text-align: center;
 
 }
@@ -40,10 +40,29 @@ max-width: 50%;
 margin: auto;
 }
 
+.dishMenu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 12px;
+}
+
+.dish {
+  border: 1px solid wheat;
+  width: 400px;
+}
+
 
 button {
   background-color: rgb(225, 194, 16);
   border: none;
   padding: 20px;
   color: white;
+}
+
+ul {
+  display: grid;
+  gap: 20px;
+  list-style: none;
+  text-align: left;
+  margin-left: 10%;
 }
